@@ -4,7 +4,7 @@
     {
         public void Salam()
         {
-            Console.WriteLine("Salam");
+            Console.WriteLine("Salam Sasdsa");
         }
     }
 }
