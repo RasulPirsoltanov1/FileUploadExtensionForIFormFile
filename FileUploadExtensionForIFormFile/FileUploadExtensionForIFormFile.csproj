@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<OutputType>Library</OutputType>
+		<PackageId>FileUploadExtensionForIFormFile</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>Rasul Pirsoltanov</Authors>
+		<Description>Extension library for IFormFile </Description>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="NuGet.CommandLine" Version="6.9.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+</Project>
