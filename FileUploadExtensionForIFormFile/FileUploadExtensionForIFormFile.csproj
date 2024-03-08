@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-	<!--<PropertyGroup>
+	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
@@ -8,30 +8,15 @@
 		<PackageId>FileUploadExtensionForIFormFile</PackageId>
 		<Authors>Rasul Pirsoltanov</Authors>
 		<Description>Extension library for IFormFile </Description>
+		<Version>1.0.2</Version>
 		<GeneratePackageVersion>true</GeneratePackageVersion>
-		<VersionSuffix>$(VersionSuffix)</VersionSuffix>
-		<PackageVersion Condition="'$(GeneratePackageVersion)'=='true'">1.0.$(VersionSuffix)</PackageVersion>
-	</PropertyGroup>-->
-
-
-	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
-		<Nullable>enable</Nullable>
-		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 	</PropertyGroup>
-
 	<ItemGroup>
 		<PackageReference Include="NuGet.CommandLine" Version="6.9.1">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 	</ItemGroup>
-	
-	<!--<ItemGroup>
-		<PackageReference Include="NuGet.CommandLine" Version="6.9.1">
-			<PrivateAssets>all</PrivateAssets>
-			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-		</PackageReference>
-	</ItemGroup>-->
 
 </Project>
