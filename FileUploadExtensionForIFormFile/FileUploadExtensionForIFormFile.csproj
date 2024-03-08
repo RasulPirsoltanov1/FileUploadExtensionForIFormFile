@@ -6,9 +6,9 @@
 		<Nullable>enable</Nullable>
 		<OutputType>Library</OutputType>
 		<PackageId>FileUploadExtensionForIFormFile</PackageId>
-		<Version>1.0.*</Version>
 		<Authors>Rasul Pirsoltanov</Authors>
 		<Description>Extension library for IFormFile </Description>
+		<GeneratePackageVersion>true</GeneratePackageVersion>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="NuGet.CommandLine" Version="6.9.1">
