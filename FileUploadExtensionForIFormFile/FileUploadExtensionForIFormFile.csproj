@@ -9,7 +9,10 @@
 		<Authors>Rasul Pirsoltanov</Authors>
 		<Description>Extension library for IFormFile </Description>
 		<GeneratePackageVersion>true</GeneratePackageVersion>
+		<VersionSuffix>$(VersionSuffix)</VersionSuffix>
+		<PackageVersion Condition="'$(GeneratePackageVersion)'=='true'">1.0.0-$(VersionSuffix)</PackageVersion>
 	</PropertyGroup>
+
 	<ItemGroup>
 		<PackageReference Include="NuGet.CommandLine" Version="6.9.1">
 			<PrivateAssets>all</PrivateAssets>
