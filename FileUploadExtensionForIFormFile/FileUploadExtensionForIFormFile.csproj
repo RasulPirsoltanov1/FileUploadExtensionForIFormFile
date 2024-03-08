@@ -4,12 +4,10 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Version>1.0.1</Version>
 		<OutputType>Library</OutputType>
 		<PackageId>FileUploadExtensionForIFormFile</PackageId>
 		<Authors>Rasul Pirsoltanov</Authors>
 		<Description>Extension library for IFormFile </Description>
-		<GeneratePackageVersionCondition> '$(GeneratePackageVersion)' == '' </GeneratePackageVersionCondition>
 		<GeneratePackageVersion>true</GeneratePackageVersion>
 	</PropertyGroup>
 	<ItemGroup>
