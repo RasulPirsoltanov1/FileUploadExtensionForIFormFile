@@ -6,9 +6,9 @@
 		<Nullable>enable</Nullable>
 		<OutputType>Library</OutputType>
 		<PackageId>FileUploadExtensionForIFormFile</PackageId>
-		<Version>1.2.*</Version>
 		<Authors>Rasul Pirsoltanov</Authors>
 		<Description>Extension library for IFormFile </Description>
+		<GeneratePackageVersionCondition> '$(GeneratePackageVersion)' == '' </GeneratePackageVersionCondition>
 		<GeneratePackageVersion>true</GeneratePackageVersion>
 	</PropertyGroup>
 	<ItemGroup>
