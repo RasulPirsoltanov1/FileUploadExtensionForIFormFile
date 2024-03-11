@@ -21,5 +21,4 @@ Console.WriteLine("File uploaded. Path: " + filePath);
 
 ```csharp
 var filePath = // Get the path of file
-var filePath = await IFormFileExtension.DeleteFileAsync(filePath);
-Console.WriteLine("File uploaded. Path: " + filePath);
+await IFormFileExtension.DeleteFileAsync(filePath);
