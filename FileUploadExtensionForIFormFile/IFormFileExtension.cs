@@ -11,8 +11,8 @@ namespace FileUploadExtensionForIFormFile
     {
         public static async Task<string> UploadFileToAsync(this IFormFile formFile, params string[] folderNames)
         {
-            var fileName = Path.GetFileName(formFile.FileName.Substring(0,10));
-            fileName = Guid.NewGuid().ToString() + fileName;
+            var fileName = Path.GetFileName(formFile.FileName.Length>10?formFile.FileName.Substring(0, 10): formFile.FileName);
+            fileName = Guid.NewGuid().ToString() + fileName + Path.GetExtension(formFile.FileName);
             var fileDirectory = string.Empty;
             foreach (var folderName in folderNames)
             {
