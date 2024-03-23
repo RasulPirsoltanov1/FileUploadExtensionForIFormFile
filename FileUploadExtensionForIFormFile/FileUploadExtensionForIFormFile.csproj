@@ -8,7 +8,7 @@
 		<PackageId>FileUploadExtensionForIFormFileNP</PackageId>
 		<Authors>Rasul Pirsoltanov</Authors>
 		<Description>Extension library for IFormFile </Description>
-		<Version>1.0.8</Version>
+		<Version>1.0.9</Version>
 		<GeneratePackageVersion>true</GeneratePackageVersion>
 		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 	</PropertyGroup>
