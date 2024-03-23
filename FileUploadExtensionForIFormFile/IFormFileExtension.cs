@@ -17,7 +17,7 @@ namespace FileUploadExtensionForIFormFile
             {
                 fileDirectory = Path.Combine(fileDirectory, folderName);
             }
-            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot","uploads", fileDirectory, fileName);
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", fileDirectory, fileName);
             var dbPath = Path.Combine("uploads", fileDirectory, fileName);
 
             // Create the directory if it doesn't exist
@@ -37,10 +37,10 @@ namespace FileUploadExtensionForIFormFile
         {
             if (imagePath != null)
             {
-                string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", imagePath);
-                if (File.Exists(filePath))
+                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "photos", imagePath);
+                if (System.IO.File.Exists(path))
                 {
-                    File.Delete(filePath);
+                    System.IO.File.Delete(path);
                 }
             }
         }
